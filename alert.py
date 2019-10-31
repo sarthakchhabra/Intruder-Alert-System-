@@ -2,6 +2,7 @@ import RPi.GPIO as gpio
 import picamera
 import time
 import smtplib
+import pandas as pd
 
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
